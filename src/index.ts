@@ -1,37 +1,5 @@
 import * as dotenv from "dotenv";
 dotenv.config();
-//
-// import helmet from "helmet";
-// import express from "express";
-// import cors from "cors";
-// import * as mongoose from "mongoose";
-//
-// // import router from "./router";
-//
-// const PORT = process.env.PORT || 9000;
-// const app = express();
-//
-// app.use(helmet());
-// app.use(express.json());
-// // app.use(express.static("public"));
-// app.use(cors());
-//
-// app.get("/", (req, res) => {
-//   res.send("Express + TypeScript Server");
-// });
-//
-// // app.use("/api", router);
-//
-// (async () => {
-//   try {
-//     await mongoose.connect(process.env.DB_URL!, {
-//       dbName: process.env.DB_NAME,
-//     });
-//     app.listen(PORT, () => console.log(`Server started on PORT = ${PORT}; DB is OK`));
-//   } catch (e) {
-//     console.log(e);
-//   }
-// })();
 
 import mongoose from "mongoose";
 

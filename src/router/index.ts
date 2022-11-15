@@ -15,10 +15,4 @@ router.get("/auth/refresh", userController.refresh);
 
 // router.get("/users", checkAuth, userController.getAll);
 
-// router.get("/articles", articleController.getAll);
-// router.post("/articles", checkAuth, articleController.create);
-// router.get("/articles/:id", checkAuth, articleController.getOne);
-// router.patch("/articles/:id", checkAuth, articleController.update);
-// router.delete("/articles/:id", checkAuth, articleController.delete);
-
 export default router;
